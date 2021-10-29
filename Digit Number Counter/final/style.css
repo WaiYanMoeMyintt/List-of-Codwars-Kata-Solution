@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    padding: 80px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+
+}
+.count-digit-container{
+  
+    padding: 30px;
+    border: 2px solid #fff;
+    border-radius:2rem;
+    height: 50vh;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    user-select: none;
+}
+
+h1{
+    font-size: 45px;
+    letter-spacing:2px;
+    text-transform: uppercase;
+    color:rgb(121, 155, 177);
+   
+}
+
+h4{
+    font-size: 4rem;
+    color:rgb(87, 188, 252);
+    cursor: pointer;
+}
+.bottom-container{
+    display: block;
+    padding: 30px;
+
+}
+.uil{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.btn-1{
+    margin-right: 30px;
+    color: #fff;
+    background-color: rgb(99, 99, 255);
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: solid 1px rgb(91, 91, 248);
+    cursor: pointer;
+}
+.btn-2{
+    color: #fff;
+    background-color: rgb(99, 99, 255);
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: solid 1px rgb(91, 91, 248);
+    cursor: pointer;
+}
+.btn-3{
+    margin-left: 30px;
+    color: #fff;
+    background-color: rgb(99, 99, 255);
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: solid 1px rgb(91, 91, 248);
+    cursor: pointer;
+}
+.btn-1,.btn-2,.btn-3:hover{
+    background-color: rgb(110, 110, 238);
+}
