@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonus Tip Calculator</title>
+    <link rel="stylesheet" href="Final/style.css">
+</head>
+<body>
+    <div class="wrapper-container">
+       <header>    
+    <h2>Bonus Tip Calculator</h2>
+    
+      <div class="input-container">
+      <form action="javascript:void(calc())">
+      <input class="input-1" id="bill" type="text" placeholder="Total Amount Bill">
+      <input class="input-2" id="split" type="text" placeholder="Each pay person">
+      <button class="submit">Calculate</button>
+    </div>
+
+       </header>
+
+       <footer>
+        <p>Tip:<span id="tip"></span></p>
+        <p><strong>Total: <span id="total"></span></p>
+        <p>Total Amount:<span id="splitTotal"></span></p>
+       </footer>
+    </div>
+    
+    <script src = "Final/script.js"></script>
+</body>
+</html>
+
