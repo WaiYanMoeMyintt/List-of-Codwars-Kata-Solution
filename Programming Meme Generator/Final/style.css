@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    height:40vh;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    background-color:#002333;
+    padding:25px;
+}
+.meme-container{
+    position:absolute;
+    bottom:10%;
+}
+.title-header,h4{
+    text-align:center;
+    font-size:1.7rem;
+    font-weight:650;
+    color:#ccc;
+}
+h4{
+    padding-top:10%;
+}
+.meme-image-container{
+    margin-top:15%;
+   
+}
+.child-image{
+    width:400px;
+    height:auto;
+    border:5px solid #ccc;
+    border-radius:10px;
+}
+.meme-button{
+    text-align:center;
+    margin-top:8%;
+}
+.meme-btn{
+    color:#fff;
+    font-size:1.2rem;
+    padding:8px 30px 8px 30px;
+    cursor:pointer;
+    border-radius:8px;
+    border:none;
+    background-color:#4747FF;
+    margin-right:7%;
+}
+.meme-btn:focus{
+   background-color:#5C5CFF;
+}
