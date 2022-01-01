@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Nunito:wght@300&display=swap');
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    height:95vh;
+    font-family: 'Nunito', sans-serif;
+    display:flex;
+    justify-content:center;
+    padding:25px;
+    background-color:#19192C;
+}
+h1{
+    color:#eee;
+    text-align:center;
+    animation:style 5s infinite linear 0s reverse;
+}
+@keyframes style{
+    10%{
+        color:#FF3333;
+        transform:translateX(200px);
+    }
+    35%{
+        transform:scale(1.2);
+        color:#47FF47;
+    }
+    50%{
+        transform:translateX(-200px);
+        color:#FFFF33;
+    }
+    75%{
+        transform:translateY(50px);
+        color:#FF3333;
+    }
+    100%{
+        color:#5C5CFF;
+        transform:scaleX(1.4);
+    }
+}
+h3{
+    color:#5C5CFF;
+    text-align:center;
+    font-size:4rem;
+    position:relative;
+    top:15%;
+    animation-name:font;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    animation-delay:0s;
+    animation-timing-function:ease-in-out;
+    animation-direction:alternate-reverse;
+}
+@keyframes font{
+    10%{
+        color:#FF3333;
+    }
+    30%{
+        color:#47FF47;
+    }
+    50%{
+        color:#FFFF33;
+    }
+    100%{
+        color:#5C5CFF;
+    }
+}
+.counter{
+    background-color:#474F66;
+    border-radius:20px;
+    height:500px;
+}
+.counter-btn{
+    position:relative;
+    top:25%;
+    margin-top:2rem;
+}
+.decrement-btn{
+    font-size:20px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:#fff;
+    background-color:#FF3333;
+    padding:8px 30px 8px 30px;
+    cursor:pointer;
+    border:none;
+    border-radius:8px;
+    margin:2.5rem;
+}
+.decrement-btn:focus{
+
+    background-color:#47FF47;
+}
+.increment-btn{
+    font-size:20px;
+    color:#fff;
+    background-color:#47FF47;
+    padding:8px 30px 8px 30px;
+    cursor:pointer;
+    border:none;
+    border-radius:8px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin:2.5rem;
+}
+.increment-btn:focus{
+    background-color:#FF4747;
+}
+
+.reset-btn{
+    font-size:20px;
+    padding:8px 30px 8px 30px;
+    border-radius:8px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    background-color:#FFFF33;
+    border:none;
+    color:#ccc;
+    cursor:pointer;
+    margin:2.5rem;
+}
+.reset-btn:focus{
+    background-color:#5C5CFF;
+}
+
+@keyframes identifier {
+    
+}
