@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+   <link rel="stylesheet" href="./final/app.css">
+   <title>JavaScript Form Validation</title>
+</head>
+<body>
+     <form>
+
+         <h3>Create an account and Enjoy</h3>
+
+         <div class="form-control">
+
+            <label for="name">Username</label>
+            <input type="text" class="username"  placeholder="Enter a username">
+
+            
+            <i class="uil uil-check check-green"></i>
+            <i class="uil uil-exclamation wrong-red"></i>
+            <small>Error Message</small>
+
+         </div>
+
+          <div class="form-control">
+
+            <label for="email">Email</label>
+            <input type="text" class="email" placeholder="Enter a email address">
+            <small class="email-error">Error Message</small>
+
+          </div>
+          
+          <div class="form-control">
+
+            <label for="password">Password</label>
+            <input type="password" class="passsword" id = "password1" placeholder="Enter a strong password">
+            <small class="pas-error1">Error Message</small>
+          </div>
+
+          <div class="form-control">
+
+            <label for="password">Password</label>
+            <input type="password" class="re_password"  id = "password2" placeholder="Enter a repeat password">
+            <small class="pas-error2">Error Message</small>
+          </div>
+
+          <div class="form-control">
+            <button type="submit">Submit</button>
+          </div>
+     </form>
+
+     <script src="./final/app.js"></script>
+</body>
+</html>
