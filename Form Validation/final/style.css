@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body{
+   display:grid;
+   place-items: center;
+   font-family: 'Poppins', sans-serif;
+   width: 100vw;
+   height: auto;
+   background-color: #CE0F58;
+   margin-top: 4.5rem;
+}
+form {
+   background-color: #fff;
+   width: 30rem;
+   height: 35rem;
+   border-radius: .5rem;
+   padding:.5rem 6rem;
+
+}
+.form-control{
+   padding: 0 1.5rem;
+   margin-top: 1rem;
+   position: relative;
+}
+
+input{
+   display: block;
+   outline: none;
+   padding: .6rem 1rem;
+   font-size: 1rem;
+   color: #000;
+   border-radius: .3rem;
+   border:1px solid rgb(94, 91, 91);
+}
+button {
+   display: block;
+   background-color: #CE0F58;
+   color: #fff;
+   padding: 1rem 5.5rem;
+   border-radius: .2rem;
+   border:none;
+   outline: none;
+   cursor: pointer;
+   text-transform: uppercase;
+}
+/* i {
+   font-size: 1.1rem;
+   color: #000;
+   position: absolute;
+   right: 20px;
+   top: 30px;
+   margin-right: 20px;
+   display: block;
+   visibility:visible;
+} */
+.check-green{
+   color: green;
+   display: none;
+}
+.wrong-red{
+   color: red;
+   display: none;
+}
+small {
+  color: #000;
+  visibility: hidden;
+  transition: all .4s ease-in; 
+}
+.green{
+   color: rgb(30, 216, 30);
+
+}
+.red {
+   color: rgb(236, 38, 38);
+
+}
+.border-color-red{
+   border: 1.1px solid rgb(255, 22, 22);
+}
+.border-color-green{
+   border: 1.1px solid rgb(11, 236, 11);
+}
